@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+
+.greyMargin{
+    background-color: #313131;
+}
+
+.mainConatiner{
+    height: 100vh;
+    color: white;
+}
+.blackBg{
+    background-color: black;
+    background-image: url(Assets/blackBg.jpg);
+    background-size: cover;
+}
+.logoContainer {
+    margin-left: 80%;
+}
+.logoImg {
+    width: 80px;
+    margin-top: 50px;
+}
+
+.formContainer {
+    margin-left: 10%;
+    padding: 5% 5% !important;
+    font-family: 'PT Serif', serif;
+    background-color: rgba(255,255,255,0.3);
+    max-width: 40%!important;
+    height: 80%;
+    border-radius: 4%;
+    color: white;
+}
+
+.formContainer Button {
+
+    text-align: left;
+    font-family: 'PT Serif', serif;
+    margin-right: 7%;
+    margin-top: 3%;
+  }
+
+
+.formHeader{
+    font-size: 35px;
+}
+
+  @media only screen and (max-width: 720px) {
+    .greyMargin{
+        display: none;
+    }
+    .logoContainer {
+        margin-left: 60%;
+    }
+    .formContainer{
+        max-width: 80%!important;   
+    }
+  }

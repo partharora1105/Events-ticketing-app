@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    background-color: #313131!important;
+}
+
+.greyMargin{
+    background-color: #313131;
+}
+
+.mainConatiner{
+    height: 100vh;
+    color: white;
+}
+.blackBg{
+    background-color: black;
+    background-image: url(Assets/blackBg.jpg);
+    background-size: cover;
+}
+.logoutButton {
+    width: 84%!important;
+    margin-left: 8%;
+    margin-top: 20px!important;
+}
+.logoContainer {
+    /* margin-right: 20%; */
+    margin: 0!important;
+    padding-left: 30%;
+}
+.logoContainer img{
+    margin-left: 60%;
+}
+.headerConatiner {
+    padding-top: 10%!important;
+    margin-left: 5%;
+    font-family: 'PT Serif', serif; 
+    font-size: 40px;
+}
+.logoImg {
+    width: 80px;
+    margin-top: 50px;
+}
+
+.eventsContainer {
+    margin-left: 5%;
+    padding: 5% 5% !important;
+    font-family: 'PT Serif', serif;
+    background-color: rgba(255,255,255,0.3);
+    max-width: 90%!important;
+    height: 90%;
+    border-radius:20px;
+    color: white;
+    overflow-y: scroll;
+}
+
+
+.eventsContainer Button {
+
+    text-align: left;
+    font-family: 'PT Serif', serif;
+    margin-right: 7%;
+    margin-top: 3%;
+  }
+
+.eventRow{
+   margin-bottom: 1%;
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+}
+.eventsHeader{
+    font-size: 35px;
+}
+
+.optionalButton button{
+    margin-right: 10%;
+}
+
+.pagination li a{
+    background-color: transparent!important;
+    color: white;
+    margin-right: 40%;
+    min-width: fit-content;
+    border: none;
+    margin-top: 50px;
+
+}
+
+.mapboxgl-popup-content {
+    background-color: rgba(0,0,0,0.6)!important;
+    border-radius: 7px!important;
+}
+.mapboxgl-popup-content button{
+    width: fit-content!important;
+    margin-right: 5%!important;
+}
+
+.editForm{
+    font-family: 'Roboto', sans-serif;
+}
+
+  @media only screen and (max-width: 720px) {
+    .greyMargin{
+        display: none;
+    }
+    .logoContainer {
+        display: none;
+    }
+    .headerContainer{
+        max-height: 20%!important;  
+    }
+  }
