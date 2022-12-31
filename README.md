@@ -44,7 +44,7 @@ cd client; DANGEROUSLY_DISABLE_HOST_CHECK=true npm start
   <br>Login Page
 </p>
 <p align="center">
-  <img width='30%' src="/github_images/img2.png">
+  <img src="/github_images/img2.png">
   <br>Student Dashboard
 </p>
 <p align="center">
