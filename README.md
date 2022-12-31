@@ -6,17 +6,16 @@ This events ticketing app allows users to easily discover and attend events in t
 	<li>If you don't have Node.Js ,<a href="https://nodejs.org/en/download/"> install Node.js </a> to ensure targets and npm commands work./li>
 </ul>
 <h2>Running</h2>
+
 If you are a Mac/Linux user, you can run the setup make target through the below command:
 ```
 make setup
 ```
-
 If you are a Windows user, you need to run the two following commands in order:
 ```
 cd client; npm install
 cd server; npm install
 ```
-
 ### Running the Backend (Do this before running the React frontend!)
 If you are a Mac/Linux user, you can run the backend with the below command:
 ```
