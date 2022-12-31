@@ -41,13 +41,13 @@ cd client; DANGEROUSLY_DISABLE_HOST_CHECK=true npm start
 <h2>Media</h2>
 <p align="center">
   <img src="/github_images/img1.png">
-  <br>Home Page
+  <br>Login Page
 </p>
 <p align="center">
   <img width='30%' src="/github_images/img2.png">
-  <br>Responsive Mobile Page
+  <br>Student Dashboard
 </p>
 <p align="center">
   <img src="/github_images/img3.png">
-  <br>Admin Panel
+  <br>Map View
 </p>
