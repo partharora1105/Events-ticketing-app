@@ -26,6 +26,18 @@ If you are a Windows user, execute the following command:
 ```
 cd server; DANGEROUSLY_DISABLE_HOST_CHECK=true npm run dev
 ```
+
+
+### Running the Frontend
+If you are a Mac/Linux user, you can run the frontend with the below command:
+```
+make run-frontend
+```
+
+If you are a Windows user, execute the following command:
+```
+cd client; DANGEROUSLY_DISABLE_HOST_CHECK=true npm start
+```
 <h2>Media</h2>
 <p align="center">
   <img src="/github_images/img1.png">
